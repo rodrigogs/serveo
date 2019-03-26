@@ -1,0 +1,8 @@
+#!/usr/bin/env node
+
+const Serveo = require('..');
+
+const opts = {};
+const tunel = new Serveo(opts);
+
+tunel.serve();

@@ -1,0 +1,23 @@
+{
+  "name": "serveo",
+  "version": "0.0.0",
+  "repository": "https://github.com/rodrigogs/serveo",
+  "scripts": {
+    "lint": "eslint . --ext .js",
+    "lint:fix": "eslint . --ext .js --fix",
+    "test": "jest",
+    "coverage": "jest --coverage"
+  },
+  "devDependencies": {
+    "eslint": "^5.15.3",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "jest": "^24.5.0"
+  },
+  "bin": {
+    "serveo": "bin/serveo"
+  },
+  "engines": {
+    "node": ">= 7.6"
+  }
+}
