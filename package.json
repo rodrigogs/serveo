@@ -1,6 +1,7 @@
 {
   "name": "serveo",
   "version": "0.0.0",
+  "main": "index.js",
   "repository": "https://github.com/rodrigogs/serveo",
   "scripts": {
     "lint": "eslint . --ext .js",
